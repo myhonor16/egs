@@ -2,6 +2,8 @@ egs (egs grid system)
 =====================
 A lightweight responsive grid system under 2kb
 
+**Keep in mind that egs is/was a mental exercise to see if I could build a grid system. you will probably be better served with another grid system.**
+
 ## installation
 1.  Put egs.min.css anywhere in your project directory (i.e. /css/egs.min.css)
 2.  Add the following to your html document's head
