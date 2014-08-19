@@ -1,0 +1,25 @@
+{
+  "name": "egs",
+  "version": "1.2.0",
+  "homepage": "https://github.com/myhonor16/egs",
+  "authors": [
+    "Samuel <myhonor16@users.noreply.github.com>"
+  ],
+  "description": "egs (egs grid system), A lightweight responsive grid system under 2kb",
+  "main": "egs.scss",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/myhonor16/egs.git"
+  },
+  "keywords": [
+    "css",
+    "grid"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".sass-cache"
+  ]
+}
