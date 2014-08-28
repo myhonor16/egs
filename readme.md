@@ -2,8 +2,6 @@ egs (egs grid system)
 =====================
 A lightweight responsive grid system under 3kb
 
-**Keep in mind that egs is/was a mental exercise to see if I could build a grid system. you will probably be better served with another grid system.**
-
 ## installation
 
 **Via Bower - Recommended**
