@@ -7,10 +7,12 @@ A lightweight responsive grid system under 3kb
 ## installation
 
 **Via Bower - Recommended**
+
 1.  Run `bower install egs`
 2.  Include into your site either with sass (via `bower_components/egs/build/egs.scss`) or directly linked in in your html document (`<link rel="stylesheet" type="text/css" href="bower_components/egs/dist/egs.min.css" />`)
 
 **Manually**
+
 1.  Put egs.min.css anywhere in your project directory (i.e. `css/egs.min.css`)
 2.  Add the link tag to your html document's head (`<link rel="stylesheet" type="text/css" href="css/egs.min.css" />`)
 
