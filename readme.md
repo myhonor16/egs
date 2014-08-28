@@ -1,14 +1,18 @@
 egs (egs grid system)
 =====================
-A lightweight responsive grid system under 2kb
+A lightweight responsive grid system under 3kb
 
 **Keep in mind that egs is/was a mental exercise to see if I could build a grid system. you will probably be better served with another grid system.**
 
 ## installation
-1.  Put egs.min.css anywhere in your project directory (i.e. /css/egs.min.css)
-2.  Add the following to your html document's head
 
-`<link rel="stylesheet" type="text/css" href="css/egs.min.css" />`
+**Via Bower - Recommended**
+1.  Run `bower install egs`
+2.  Include into your site either with sass (via `bower_components/egs/build/egs.scss`) or directly linked in in your html document (`<link rel="stylesheet" type="text/css" href="bower_components/egs/dist/egs.min.css" />`)
+
+**Manually**
+1.  Put egs.min.css anywhere in your project directory (i.e. `css/egs.min.css`)
+2.  Add the link tag to your html document's head (`<link rel="stylesheet" type="text/css" href="css/egs.min.css" />`)
 
 ## Usage
 egs uses a 12 column grid. The width of each column is determined by the width of the browser window. At 1200px wide each column is 80px wide. At 960px wide each column is 60px wide. The format for any of the 12 columns is `col-` followed by the number of columns (e.g. `col-4` or `col-10`).

@@ -1,11 +1,11 @@
 {
   "name": "egs",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "homepage": "https://github.com/myhonor16/egs",
   "authors": [
     "Samuel <myhonor16@users.noreply.github.com>"
   ],
-  "description": "egs (egs grid system), A lightweight responsive grid system under 2kb",
+  "description": "egs (egs grid system), A lightweight responsive grid system under 3kb",
   "main": "egs.scss",
   "repository": {
     "type": "git",

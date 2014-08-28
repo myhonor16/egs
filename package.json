@@ -1,0 +1,25 @@
+{
+  "name": "egs",
+  "version": "1.2.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myhonor16/egs.git"
+  },
+  "author": "Samuel Champagne (https://github.com/myhonor16)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myhonor16/egs/issues"
+  },
+  "homepage": "https://github.com/myhonor16/egs",
+  "devDependencies": {
+    "gulp": "~3.8.1",
+    "gulp-rename": "~1.2.0",
+    "gulp-ruby-sass": "~0.5.0",
+    "gulp-minify-css": "~0.3.5",
+    "gulp-csslint": "~0.1.4"
+  }
+}
