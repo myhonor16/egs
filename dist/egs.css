@@ -72,99 +72,52 @@
   }
 
   .col-1 {
-    width: 60px;
+    width: 8.333%;
   }
 
   .col-2 {
-    width: 140px;
+    width: 16.666%;
   }
 
   .col-3 {
-    width: 220px;
+    width: 25%;
   }
 
   .col-4 {
-    width: 300px;
+    width: 33.333%;
   }
 
   .col-5 {
-    width: 380px;
+    width: 41.666%;
   }
 
   .col-6 {
-    width: 460px;
+    width: 50;
   }
 
   .col-7 {
-    width: 540px;
+    width: 58.333%;
   }
 
   .col-8 {
-    width: 620px;
+    width: 66.666%;
   }
 
   .col-9 {
-    width: 700px;
+    width: 75%;
   }
 
   .col-10 {
-    width: 780px;
+    width: 83.333%;
   }
 
   .col-11 {
-    width: 860px;
+    width: 91.666%;
   }
 
   .col-12 {
-    width: 940px;
+    width: 100%;
   }
 }
-@media only screen and (min-width: 1200px) {
-  .col-1 {
-    width: 80px;
-  }
 
-  .col-2 {
-    width: 180px;
-  }
-
-  .col-3 {
-    width: 280px;
-  }
-
-  .col-4 {
-    width: 380px;
-  }
-
-  .col-5 {
-    width: 480px;
-  }
-
-  .col-6 {
-    width: 580px;
-  }
-
-  .col-7 {
-    width: 680px;
-  }
-
-  .col-8 {
-    width: 780px;
-  }
-
-  .col-9 {
-    width: 880px;
-  }
-
-  .col-10 {
-    width: 980px;
-  }
-
-  .col-11 {
-    width: 1080px;
-  }
-
-  .col-12 {
-    width: 1180px;
-  }
-}
+/*# sourceMappingURL=egs.css.map */

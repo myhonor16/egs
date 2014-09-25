@@ -15,7 +15,7 @@ A lightweight responsive grid system under 3kb
 2.  Add the link tag to your html document's head (`<link rel="stylesheet" type="text/css" href="css/egs.min.css" />`)
 
 ## Usage
-egs uses a 12 column grid. The width of each column is determined by the width of the browser window. At 1200px wide each column is 80px wide. At 960px wide each column is 60px wide. The format for any of the 12 columns is `col-` followed by the number of columns (e.g. `col-4` or `col-10`).
+egs uses a 12 column grid. The width of each column is determined by the width of the browser window. Each column is calculated `(100 / 12) * n` where `n` is the number of columns (so col-7 is `(100 / 12) * 7`. The format for any of the 12 columns is `col-` followed by the number of columns (e.g. `col-4` or `col-10`).
 
 There are also percentage based columns. They are `col-33`, `col-66`, `col-25`, `col-50` and `col-75`.
 
@@ -33,4 +33,9 @@ You must wrap any columns in a wrapper element with the `egs` class.
     	<div class="col-33"></div>
     	<div class="col-33"></div>
     	<div class="col-33"></div>
+    </div>
+    <div class="egs">
+        <div class="col-2"></div>
+        <div class="col-7"></div>
+        <div class="col-3"></div>
     </div>
